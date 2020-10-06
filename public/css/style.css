@@ -1,0 +1,87 @@
+body{
+    background-color: #2E3440;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link{
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #ffffff !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    text-align: center;
+}
+
+.p-maior{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.p-menor{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.h6-menor{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.h4-menor{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.a-search{
+    color: white;
+    transition: 0.3s;
+}
+
+.a-search:hover{
+    text-decoration: none;
+    color: white;
+    cursor: default;
+}
+
+.anchor-nav{
+    color: white !important;
+    transition: 0.3s;
+}
+
+.anchor-nav:hover{
+    color: #a1a1a1 !important;
+}
+
+.dropdown button{
+    color: white;
+}
+
+.dropdown button:hover{
+    color: #a1a1a1;
+}
+
+.item-photo{
+    width: 70%;
+}
+
+.logo-payment{
+    display: block;
+    width: 54%;
+    clear: left;
+}
+
+.logo-payment-cc{
+    display: block;
+    width: 66%;
+    clear: left;
+}
+
+.logo-payment-bank{
+    display: block;
+    width: 25%;
+    clear: left;
+}
