@@ -1,27 +1,18 @@
-<nav  class="navbar navbar-expand-lg navbar-dark av-principal">
-    <img class="logo mr-5" src="images/logo.png" href="#">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-            <a href="/" class="nav-link font-weight-bold anchor-nav">
-                STORE
-            </a>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-            <a class="nav-link font-weight-bold anchor-nav" href="addfunds">
-                ADD FUNDS
-            </a>
-            <a class="nav-link font-weight-bold anchor-nav" href="">
-                SELL
-            </a>
-            <a class="nav-link font-weight-bold anchor-nav" href="">
-                INVENTORY
-            </a>
-            <a class="nav-link font-weight-bold anchor-nav" href="">
-                SIGN IN
-            </a>
-        </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenrir Skins</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href='/css/style.css'>
+
+</head>
+<body>
+    <div class="container">
+        <!-- menu -->
+        <%- include('menu'); %>
+        <!-- items menu -->
+        <%- include('items'); %>
     </div>
-</nav>

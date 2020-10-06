@@ -85,3 +85,9 @@ h1,h2,h3,h4,h5,h6,p{
     width: 25%;
     clear: left;
 }
+
+footer{
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
